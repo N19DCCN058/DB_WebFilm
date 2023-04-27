@@ -328,7 +328,7 @@ CREATE TABLE `films` (
   `film_name` varchar(80) NOT NULL,
   `film_poster_path` varchar(150) NOT NULL,
   `trailer_path` varchar(150) NOT NULL,
-  `film_description` varchar(200) NOT NULL,
+  `film_description` varchar(2000) NOT NULL,
   `film_duration` int NOT NULL,
   `release_time` date NOT NULL,
   `odd_film` tinyint NOT NULL,
